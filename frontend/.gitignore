@@ -1,0 +1,72 @@
+# -------------------------
+# Python / Flask backend
+# -------------------------
+backend/venv/
+backend/.venv/
+backend/__pycache__/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+instance/
+*.sqlite3
+
+# -------------------------
+# HuggingFace / Model cache
+# -------------------------
+.cache/
+huggingface/
+hf_cache/
+*.safetensors
+
+# -------------------------
+# Node / React frontend
+# -------------------------
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# Package manager logs
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+.npmrc
+
+# -------------------------
+# Environment files
+# (do NOT ignore *.env.example)
+# -------------------------
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Frontend env files
+frontend/.env
+frontend/.env.local
+frontend/.env.development
+frontend/.env.production
+frontend/.env.test
+
+# -------------------------
+# Vite
+# -------------------------
+.vite/
+frontend/.vite/
+
+# -------------------------
+# VSCode / Editor files
+# -------------------------
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# OS / System
+# -------------------------
+desktop.ini
