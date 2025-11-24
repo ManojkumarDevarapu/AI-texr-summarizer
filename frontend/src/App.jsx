@@ -1,8 +1,7 @@
 import { useState } from 'react';
 import axios from 'axios';
 
-const API_URL = import.meta.env.VITE_API_URL || "https://ai-texr-summarizer.onrender.com";
-
+const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
 function App() {
   const [text, setText] = useState('');
   const [summary, setSummary] = useState('');
