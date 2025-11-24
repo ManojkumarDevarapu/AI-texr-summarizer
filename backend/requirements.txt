@@ -1,6 +1,7 @@
+# Root requirements for Render
 Flask==3.0.0
 flask-cors==4.0.0
-transformers==4.35.2   
-torch==2.5.0           
+transformers==4.36.0
+torch==2.5.1
 python-dotenv==1.0.0
 gunicorn==21.2.0
